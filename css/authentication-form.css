@@ -24,6 +24,48 @@ p {
 
 /* 👇👇👇  ADD YOUR FORM STYLES BENEATH  👇👇👇*/
 
+.content
+{
+display:flex;
+gap:30px; /* Gap Property does noting!!!!! */
+border: 2px solid blue;
+}
+
+.form-header
+{
+ display:flex;
+ flex-direction: column; 
+ gap:20px;
+}
+
+.form-checkbox-control
+{
+display: flex;
+gap:6px;
+}
+
+
+#sign-in-form
+{
+display: flex;
+flex-direction: column;
+gap:30px;
+}
+
+
+.form-input-control
+{
+display: flex;  
+flex-direction: column;
+}
+
+.form-submit-control
+{
+display: flex;
+gap:30px;
+}
+
+
 form {
   border: 1px solid #a9a9a9;
   padding: 20px;
@@ -33,10 +75,11 @@ form {
   color: #a9a9a9;
   font-weight: unset;
 }
-
-#sign-in,
+P #sign-in,
 #sign-up {
-  width: 100%;
+ width: 100%;
+ display:flex;
+ gap: 6px; 
 }
 
 a {
