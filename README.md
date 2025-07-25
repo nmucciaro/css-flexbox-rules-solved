@@ -69,58 +69,58 @@ Create the form HTML elements to imitate the mockup:
 - [x] Maintain a 6px distance between the label and the input.
 - [x] Keep a 30px distance between each row.
 - [x] Bolden label text when paired with a text or text-like input field.
-- [ ] Avoid bold formatting for labels paired with checkboxes and radios.
-- [ ] Utilize a paragraph element if the label element can't be used.
-- [ ] Ensure inputs span the full width available within the parent.
-- [ ] Set the height of inputs with text-like values to 30px.
-- [ ] Set the height of dropdown elements to 30px.
+- [x] Avoid bold formatting for labels paired with checkboxes and radios.
+- [x] Utilize a paragraph element if the label element can't be used.
+- [x] Ensure inputs span the full width available within the parent.
+- [x] Set the height of inputs with text-like values to 30px.
+- [x] Set the height of dropdown elements to 30px.
 
 For the "Sign In form":
 
-- [ ] The form should have a border of 1px width and solid style.
-- [ ] The login input element.
-  - [ ] Should require a value.
-  - [ ] Should include a placeholder.
-  - [ ] The value should be validated as an email by the default browser mechanism.
-- [ ] The password input element.
-  - [ ] Should require a value.
-  - [ ] Should include a placeholder.
-  - [ ] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
-  - [ ] Should hide symbols during typing.
-- [ ] The "Sign in" button should submit the form to initiate field validation using the default browser mechanism.
+- [x] The form should have a border of 1px width and solid style.
+- [x] The login input element.
+  - [x] Should require a value.
+  - [x] Should include a placeholder.
+  - [x] The value should be validated as an email by the default browser mechanism.
+- [x] The password input element.
+  - [x] Should require a value.
+  - [x] Should include a placeholder.
+  - [x] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
+  - [x] Should hide symbols during typing.
+- [x] The "Sign in" button should submit the form to initiate field validation using the default browser mechanism.
 
 For the "Sign Up Form"
 
-- [ ] The name input element
-  - [ ] Should require a value.
-  - [ ] Should include a placeholder.
-- [ ] The email input element
-  - [ ] Should require a value.
-  - [ ] The value should be validated as an email by the default browser mechanism.
-  - [ ] Should include a placeholder.
-- [ ] The password input element
-  - [ ] Should require a value.
-  - [ ] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
-  - [ ] Should hide symbols during typing.
-- [ ] The confirm password input element
-  - [ ] Should require a value.
-  - [ ] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
-  - [ ] Should hide symbols during typing.
-- [ ] The phone number input
-  - [ ] Should require a value
-  - [ ] The value should be validated to follow a template of telephone number strictly.
-- [ ] The avatar input
-  - [ ] Should be represented by a "Choose file" button allowing the user to select a file from their computer when clicked.
-- [ ] The state dropdown list
-  - [ ] Should be a dropdown list with a default option "Select your state" selected by default and three options with random state names (Iowa, etc.).
-  - [ ] The default option should be unavailable to be selected.
-- [ ] The city dropdown list
-  - [ ] Should be a dropdown list with a default option "Select your city" selected by default and three options with random city names (Dallas, etc.).
-  - [ ] The default option should be unavailable to be selected.
-- [ ] The Gender single-option group
-  - [ ] Clicking the label should activate the corresponding radio button.
-  - [ ] The "Other" option should be active (enabled) by default.
-- [ ] The "Sign in" button should submit the form to trigger field validation using the default browser mechanism.
+- [x] The name input element
+  - [x] Should require a value.
+  - [x] Should include a placeholder.
+- [x] The email input element
+  - [x] Should require a value.
+  - [x] The value should be validated as an email by the default browser mechanism.
+  - [x] Should include a placeholder.
+- [x] The password input element
+  - [x] Should require a value.
+  - [x] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
+  - [x] Should hide symbols during typing.
+- [x] The confirm password input element
+  - [x] Should require a value.
+  - [x] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
+  - [x] Should hide symbols during typing.
+- [x] The phone number input
+  - [x] Should require a value
+  - [x] The value should be validated to follow a template of telephone number strictly.
+- [x] The avatar input
+  - [x] Should be represented by a "Choose file" button allowing the user to select a file from their computer when clicked.
+- [x] The state dropdown list
+  - [x] Should be a dropdown list with a default option "Select your state" selected by default and three options with random state names (Iowa, etc.).
+  - [x] The default option should be unavailable to be selected.
+- [x] The city dropdown list
+  - [x] Should be a dropdown list with a default option "Select your city" selected by default and three options with random city names (Dallas, etc.).
+  - [x] The default option should be unavailable to be selected.
+- [x] The Gender single-option group
+  - [x] Clicking the label should activate the corresponding radio button.
+  - [x] The "Other" option should be active (enabled) by default.
+- [x] The "Sign in" button should submit the form to trigger field validation using the default browser mechanism.
 
 > E-commerce page
 
