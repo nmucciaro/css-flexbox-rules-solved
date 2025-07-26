@@ -155,3 +155,8 @@ display: flex;
 justify-content: center;
 padding-top: 15px;
 }
+
+.form-radio-control label
+{
+  font-weight: normal;
+}
