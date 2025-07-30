@@ -13,11 +13,16 @@ body {
 }
 
 body {
-  background-color: #353843;
+  background-color: black;
+  margin-top: 0px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 50%;
 }
 
 header {
   background-color: #121216;
+  height: 250px;
 }
 
 header,
@@ -34,12 +39,21 @@ section {
   width: 100%;
   max-width: 964px;
   margin: 0 auto;
+  /* display: flex;
+   why does this header effect the main 
+  its its own div???? 
+  flex-direction: column; */
 }
 
 .header-content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .logo-search {
+  display: flex;
+  gap: 30px;
 }
 
 .logo {
@@ -47,6 +61,15 @@ section {
   font-size: 28px;
   font-weight: 900;
   font-family: "Caveat", sans-serif;
+
+  width: 100px;
+}
+
+.search-icon {
+  display: flex;
+}
+.search-bar {
+  display: flex;
 }
 
 .search-bar {
@@ -69,8 +92,48 @@ section {
 .search-bar i {
   color: #8d8ba5;
 }
+.view-options {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.logo-search {
+  display: flex;
+}
 
 .options {
+  display: flex;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+}
+
+i.fa.fa-th {
+  display: flex;
+  justify-content: center;
+  height: 25px;
+}
+
+i.fa.fa-bars {
+  display: flex;
+  justify-content: center;
+  height: 25px;
+}
+
+i.fa.fa-th-list {
+  display: flex;
+  justify-content: center;
+  height: 25px;
+}
+
+i .fa .fa-shopping-bag {
+  display: flex;
 }
 
 .option {
@@ -87,6 +150,9 @@ section {
 .categories {
   background-color: #2b2d36;
   padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .category {
@@ -112,6 +178,11 @@ section {
 
 .view-options {
 }
+.logo {
+  display: flex;
+}
+main {
+}
 
 i.fa-th-list {
   transform: rotate(180deg);
@@ -131,6 +202,9 @@ i.fa-th-list {
 
 .products {
   margin-top: 40px;
+}
+
+#product-container {
 }
 
 .product {
